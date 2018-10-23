@@ -1,6 +1,5 @@
 #wrapper {
     width: 960px;
-    border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
 }
@@ -11,7 +10,7 @@
     line-height: 50px;
 }
 
-#menu ul {
+#menu ul {1
     margin: 0px;
 }
 
@@ -20,20 +19,42 @@
 }
 
 #banner {
-    background-color: red;
+    background-image: url("../images/happy-people.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
 }
 
+.std-padding {
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.borderThin {
+    border: 1px solid black;
+}
 #content {
     background-color: papayawhip;
     font-family: "Helvetica", "Helvetica Neue", "SansSerif";
-    float: left;
     width: 545px;
     padding-left: 24px;
     padding-right: 24px;
     font-size: 16px;
     line-height: 27px;
 }
-
+.centerText{
+    text-align: center;
+}
 #sidebar {
 
     background-color: chocolate;
